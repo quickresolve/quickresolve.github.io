@@ -3,7 +3,7 @@
 }
 
 nav {
-  background-color: black;
+  background-color: #2B0040;
 
 }
 
@@ -31,7 +31,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: #00bfff;
+  color: #a9a9a9;
 }
 
 .title  {
@@ -48,19 +48,24 @@ a {
 
 #title{
   color:white;
-  font-size: 70px;
+  font-size: 100px;
 }
 
 #desc{
   color:white;
+  font-size: 25px;
 }
 
 #about{
-  background-color:black;
-  color:white;
+  background-color:#2B0040;
+  color:#a9a9a9;
   position:absolute;
   width: 100%;
 
+}
+
+#about-title{
+  padding-top: 10px;
 }
 
 #about-pic{
@@ -74,10 +79,12 @@ a {
 .about-p{
   padding-top:10px;
   position:relative;
-  width:40em;
+  width:48em;
   float:right;
-  padding-right: 20px;
+  padding-right: 45px;
 }
+
+
 
 .h_line { width:100%; height:1px; background: black }
 
@@ -109,15 +116,17 @@ a {
 }
 
 footer {
-  background-color: black;
+  background-color: #2B0040;
   color:white;
   position:absolute;
 }
 
 #foot-quote{
   padding-top: 10px;
+  padding-left: 10px;
   float:left;
   width:33%;
+  color:#a9a9a9;
 }
 
 #cr-foot{
@@ -128,6 +137,7 @@ footer {
 
 #sm-footer{
   padding-top: 10px;
+  padding-right: 10px;
   float:right;
 }
 
