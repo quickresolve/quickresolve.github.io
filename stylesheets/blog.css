@@ -1,0 +1,21 @@
+#blog-title {
+  position:relative;
+  float:center;
+  padding-top: 120px;
+  padding-left: 10px;
+}
+
+#feature {
+  position:relative;
+  float: center;
+  padding-top: 120px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+#highlighted{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
