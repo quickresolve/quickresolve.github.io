@@ -86,24 +86,32 @@
 
   <!--Blog Content-->
   <section>
+    <br>
    <p>
     Arrays and Hashes can be thought of simply as collections used to store and retrieve data. That data can be anything from integers, floats, strings, methods, to other arrays or hashes. When using an array the data is sorted similar to a numbered list starting at zero. These numbers can be thought of as ‘implied keys’ which index the data for quick retrieval.
     </p>
+    <br>
     <img src="../imgs/Array.png">
+    <br>
     <p>
     When using a hash you must assign both the key and value pairs. Hashes are best visualized as a table, so what is paired together is more important than its order. Hashes are also often referred to as dictionaries. The key is comparable to the word you are looking up and the value is comparable to the definition of that word. Recalling data  from a hash computes more quickly than when using an array.
    </p>
+   <br>
    <p>
     In both arrays and hashes, each element is a reference to some object. Object references can be predefined variables, anonymous objects, or expressions. To index or call an element in an array or a hash you use a square bracket notation. A hash by default returns nil when indexed by a key it doesn’t contain.
    </p>
+   <br>
    <p>
     arr = [1, 2, 3, 4, 5, 6]
     <br>arr[2]    <br>#=> 3
   </p>
+  <br>
   <p>
     In order to iterate over an array or hash you may use the enumerable #each. Enumerable mixins provide these collection classes with several traversal and searching methods, as well as the ability to sort the data. The enumerable #each specifically yields successive members of the collection. If enumerable #max, #min, or #sort is used, the objects in the collection must also include a meaningful ⇔ operator, since these methods rely on an ordering between members of the collection.
   </p>
+  <br>
   <h4>The following enumerables may also be used on arrays or hashes:</h4>
+  <br>
   <ul>
     <li>#collect - produces a new array with a block that takes one element and transforms it</li>
     <li>#each_with_index - includes the index when iterating over the array
@@ -117,7 +125,7 @@
     <li>#replace - replaces all the contents of a hash with that from another
     </li>
   </ul>
-
+  <br>
   <img src="../imgs/Array_n_Hash.png">
  </section>
 
