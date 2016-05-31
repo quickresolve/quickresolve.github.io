@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+gem 'rails-api'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.11'
 # Use SCSS for stylesheets
@@ -39,6 +41,12 @@ gem 'therubyracer', :require => nil
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+#enables serving assets in production and setting your logger to standard out
+gem 'rails_12factor', group: :production
+
+#Rack middleware which aborts requests that have been running for longer than a specified timeout.
+gem 'rack-timeout', '~> 0.4.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
