@@ -1,0 +1,151 @@
+* {
+  margin: 0px 0px 0px 0px;
+}
+
+nav {
+  background-color: #2B0040;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #a9a9a9;
+  display: inline;
+  padding-right: 20px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: top-center;
+  font-family: sans-serif;
+  font-weight:bold;
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#nav-menu  {
+  font-size: 1.25em;
+  margin-top:60px;
+  margin-left: 25px;
+
+}
+
+#sm-links  {
+  float: right;
+  display:inline;
+  line-height: .5px;
+}
+
+
+
+.title  {
+  background-image: url("../imgs/SF.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-position: center top;
+  padding: 350px 0;
+
+}
+
+#title{
+  color:white;
+  font-size: 100px;
+}
+
+#desc{
+  color:white;
+  font-size: 25px;
+}
+
+#about{
+  background-color:#2B0040;
+  color:#a9a9a9;
+  position:absolute;
+  width: 100%;
+
+}
+
+#about-title{
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+#about-pic{
+  margin:auto;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+}
+
+.about-p{
+  padding-top:10px;
+  position:relative;
+  width:35em;
+  font-size:20px;
+  float:right;
+  padding-right: 15px;
+}
+
+
+
+.h_line { width:100%; height:1px; background: black }
+
+.blog  {
+  background-image: url("../imgs/Bridge.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-position: center top;
+  padding: 350px 0;
+  color:white;
+}
+
+#contact-section  {
+  float:center;
+  margin:auto;
+  font-family: sans-serif;
+  background-color:#838b8b;
+  position:relative;
+  padding-left: 40px;
+}
+
+#contact-form {
+  width:60%;
+  border: 2px solid black;
+
+}
+
+footer {
+  background-color: #2B0040;
+  color:white;
+  position:absolute;
+}
+
+#foot-quote{
+  padding-top: 10px;
+  padding-left: 10px;
+  float:left;
+  width:33%;
+  color:#a9a9a9;
+}
+
+#cr-foot{
+  padding-top: 10%;
+  padding-left: 40%;
+  float:center;
+}
+
+#sm-footer{
+  padding-top: 10px;
+  padding-right: 10px;
+  float:right;
+}
+

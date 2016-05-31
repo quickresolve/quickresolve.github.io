@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+
+<head>
+ <title>QuickResolve</title>
+ <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link href="quickresolve.github.io/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<html>
+
+ <nav class="navbar">
+  <!--LOGO TBA
+  <section><a href="#home"><img src="Logo"></a>
+  </section> -->
+
+   <!--Links to my Social Media-->
+  <section id="sm-links">
+    <a href="mailto:lauranmontoya@gmail.com"><img src="../imgs/sm-icons/email.png"></a>
+   <a href="https://www.linkedin.com/in/lnmontoya"><img src="../imgs/sm-icons/linkedin.png"></a>
+   <a href="https://github.com/quickresolve"><img src="../imgs/sm-icons/github.png"></a>
+   <a href="https://twitter.com/QuickResolute"><img src="../imgs/sm-icons/twitter.png"></a>
+  </section>
+
+    <!--Navigation Menu-->
+  <section id="nav-menu">
+    <a href="quickresolve.github.io">Home</a>
+    <a href="quickresolve.github.io/#AboutMe">About Me</a>
+    <a href="quickresolve.github.io/blog/index.html">Blog</a>
+    <a href="quickresolve.github.io/#Portfolio">Portfolio</a>
+    <a href="quickresolve.github.io/#Contact">Contact</a>
+  </section>
+
+ </nav>
+
+<div class="h_line"></div>
+
+<section id="blog-title">
+ <h1>Getting Acquainted with Arrays & Hashes</h1>
+ <h3>January 25, 2016</h3>
+ <h2>By QuickResolve</h2>
+</section>
+
+<section>
+<!-- Email -->
+  <a href="mailto:?Subject=C0deW0rds&amp;Body=quickresolve.github.io">
+  <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+
+<!-- Facebook -->
+  <a href="http://www.facebook.com/sharer.php?u=quickresolve.github.io" target="_blank">
+  <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+
+<!-- Twitter -->
+<a href="https://twitter.com/share?url=quickresolve.github.io&amp;text=Simple%20Share%20Buttons&amp;hashtags=C0deW0rds" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+
+
+<!-- LinkedIn -->
+<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=quickresolve.github.io" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+
+<!-- Google+ -->
+<a href="https://plus.google.com/share?url=quickresolve.github.io" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+<h6>Spread the Word</h6>
+</section>
+<body>
+
+<div class="h_line"></div>
+
+  <!--Feature Image-->
+  <section>
+  <img src="../imgs/Array_vs_Hash.png">
+  </section>
+
+  <!--Highlighted Blog Posts-->
+  <!--TBA
+  <section>
+    <a href="#HB1"><img src="HB1img"></a>
+    <a href="#HB2"><img src="HB2img"></a>
+  </section>
+  -->
+
+  <!--Blog Content-->
+  <section>
+    <br>
+   <p>
+    Arrays and Hashes can be thought of simply as collections used to store and retrieve data. That data can be anything from integers, floats, strings, methods, to other arrays or hashes. When using an array the data is sorted similar to a numbered list starting at zero. These numbers can be thought of as ‘implied keys’ which index the data for quick retrieval.
+    </p>
+    <br>
+    <img src="../imgs/Array.png">
+    <br>
+    <p>
+    When using a hash you must assign both the key and value pairs. Hashes are best visualized as a table, so what is paired together is more important than its order. Hashes are also often referred to as dictionaries. The key is comparable to the word you are looking up and the value is comparable to the definition of that word. Recalling data  from a hash computes more quickly than when using an array.
+   </p>
+   <br>
+   <p>
+    In both arrays and hashes, each element is a reference to some object. Object references can be predefined variables, anonymous objects, or expressions. To index or call an element in an array or a hash you use a square bracket notation. A hash by default returns nil when indexed by a key it doesn’t contain.
+   </p>
+   <br>
+   <p>
+    arr = [1, 2, 3, 4, 5, 6]
+    <br>arr[2]    <br>#=> 3
+  </p>
+  <br>
+  <p>
+    In order to iterate over an array or hash you may use the enumerable #each. Enumerable mixins provide these collection classes with several traversal and searching methods, as well as the ability to sort the data. The enumerable #each specifically yields successive members of the collection. If enumerable #max, #min, or #sort is used, the objects in the collection must also include a meaningful ⇔ operator, since these methods rely on an ordering between members of the collection.
+  </p>
+  <br>
+  <h4>The following enumerables may also be used on arrays or hashes:</h4>
+  <br>
+  <ul>
+    <li>#collect - produces a new array with a block that takes one element and transforms it</li>
+    <li>#each_with_index - includes the index when iterating over the array
+    </li>
+    <li>#reverse_each - iterates in reverse order
+    </li>
+    <li>#inject - passes a hash into an array
+    </li>
+    <li>#merge - inserts into a hash every key-value pair from another hash
+    </li>
+    <li>#replace - replaces all the contents of a hash with that from another
+    </li>
+  </ul>
+  <br>
+  <img src="../imgs/Array_n_Hash.png">
+ </section>
+
+
+   <table>
+
+     <tr>
+       <td>
+         <button><a href="./css-concepts.html">PREVIOUS</a></button>
+       </td>
+       <td>
+         <button><a href="#">NEXT</a></button>
+       </td>
+     </tr>
+
+   </table>
+
+
+
+ </body>
+
+
+
+<div class="h_line"></div>
+
+ <footer>
+
+  <section id="foot-quote">
+    <q>I find that nothing but very close and intense application to subjects of a scientific nature now seems at all to keep my imagination from running wild, or to stop up the void which seems to be left in my mind from a want of excitement. -Ada Lovelace
+    </q>
+  </section>
+
+   <!--Links to my Social Media-->
+  <section id="sm-footer">
+    <a href="mailto:lauranmontoya@gmail.com"><img src="../imgs/sm-icons/email.png"></a>
+   <a href="https://www.linkedin.com/in/lnmontoya"><img src="../imgs/sm-icons/linkedin.png"></a>
+   <a href="https://github.com/quickresolve"><img src="../imgs/sm-icons/github.png"></a>
+   <a href="https://twitter.com/QuickResolute"><img src="../imgs/sm-icons/twitter.png"></a>
+  </section>
+
+  <section id="cr-foot"> <p>Copyright &copy; QuickResolve 2016</p></section>
+
+ </footer>
+
+
+</html>
+
+
