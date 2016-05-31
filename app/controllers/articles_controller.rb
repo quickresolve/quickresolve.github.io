@@ -1,10 +1,15 @@
 class ArticlesController < ApplicationController
+
+  http_basic_authenticate_with name: "admin", password: "secret", except: [:index, :show]
+
   def index
     @articles = Article.all
+    render json: @articles
   end
 
   def show
     @article =Article.find(params[:id])
+    render json: @article
   end
 
   def new
