@@ -1,12 +1,11 @@
 {
-  "main.css": "static/css/main.1e846eaf.css",
-  "main.css.map": "static/css/main.1e846eaf.css.map",
-  "main.js": "static/js/main.dc591451.js",
-  "main.js.map": "static/js/main.dc591451.js.map",
+  "main.css": "static/css/main.8b6eafb6.css",
+  "main.css.map": "static/css/main.8b6eafb6.css.map",
+  "main.js": "static/js/main.11cda9ac.js",
+  "main.js.map": "static/js/main.11cda9ac.js.map",
   "static/media/AIFF.png": "static/media/AIFF.c011feed.png",
   "static/media/GDSC.png": "static/media/GDSC.8d74c7bc.png",
   "static/media/LXAI.jpg": "static/media/LXAI.9a282edb.jpg",
-  "static/media/Montserrat-Regular.otf": "static/media/Montserrat-Regular.91696e09.otf",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.eed9aab5.woff",
   "static/media/Roboto-Bold.woff2": "static/media/Roboto-Bold.c0f1e4a4.woff2",
   "static/media/Roboto-Light.woff": "static/media/Roboto-Light.ea36cd9a.woff",
@@ -37,7 +36,7 @@
   "static/media/nest.jpeg": "static/media/nest.e7f2a35f.jpeg",
   "static/media/portfolio.png": "static/media/portfolio.a2dc3c54.png",
   "static/media/python.png": "static/media/python.6dd7bc34.png",
-  "static/media/splash.png": "static/media/splash.8f1071af.png",
+  "static/media/splash.jpg": "static/media/splash.4fc7ac0e.jpg",
   "static/media/thrival.png": "static/media/thrival.fb66bc74.png",
   "static/media/twitter.png": "static/media/twitter.11aaddbc.png"
 }
