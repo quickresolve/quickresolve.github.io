@@ -6,7 +6,7 @@ import About from './about';
 
 export default props =>{
     return(
-        <div>
+        <div className='home'>
             <LandingPage/>
             <About/>
         </div>

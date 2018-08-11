@@ -1,10 +1,13 @@
 import React from 'react';
-import splash from '../assets/images/landing/splash.png';
+
 
 export default props =>{
     return(
         <div className='landing'>
-            <img src={splash} alt="landing imd"/>
+            <div className='landing-text'>
+                <h1>Laura Montoya</h1>
+                <h5>Entrepreneur | Engineer | Speaker | Writer</h5>
+            </div>
         </div>
     );
 }

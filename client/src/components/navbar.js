@@ -5,6 +5,8 @@ import {
     Link,
   } from 'react-router-dom'
 
+  import { Textfit } from 'react-textfit';
+
 export default class NavBar extends Component {
     constructor(props){
         super(props);
@@ -83,7 +85,9 @@ export default class NavBar extends Component {
             navbar = (
                 <nav>
                     <div ref={this.setWrapperRef} className="nav-wrapper container">
-                    <Link className='nav-text-name center brand-logo'to="/">Laura N Montoya</Link>
+                    <Textfit mode="single">
+                    <Link className='nav-text-name center brand-logo' id='navlogo-mobile'to="/">Laura N Montoya</Link>
+                    </Textfit>
                     <a className="button-collapse" onClick={this.openNav}><i className="material-icons">menu</i></a>
                     <ul className={`side-nav ${this.state.open ? 'visible': 'hidden' }`} tabIndex="0" onBlur={ this.closeNav }>
                         <li><a className='nav-text' onClick={this.closeNav} onMouseEnter={this.closeHover.bind(this)} onMouseLeave={this.closeNotHover.bind(this)}><i className={`${closeHover ? "white-color":"black-color"} material-icons left sideNavClose`}>close</i></a></li>

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-Regular.otf');
+    font-family: 'Merriweather';
+    src: url('https://fonts.googleapis.com/css?family=Merriweather');
 }
 
 h1,
@@ -9,9 +9,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Merriweather', serif, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -36,14 +35,19 @@ nav {
     background-color: white;
 }
 
+.navbar-fixed{
+    height:30px;
+}
+
 .nav-text-name,
 .brand-logo.center {
     color: #127da1;
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Merriweather', serif, Arial, sans-serif;
     font-weight: bold;
 }
+
 
 .hidden {
     display: none;
@@ -74,7 +78,7 @@ nav {
 .nav-text {
     color: black;
     text-transform: uppercase;
-    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Merriweather', serif, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -99,17 +103,32 @@ nav .button-collapse {
     cursor: pointer;
 }
 
+.home {
+    padding:0;
+}
+
 .landing{
  background-size: cover;
  background-position: center;
+ background-image: url('./assets/images/landing/splash.jpg') ;
+ height: 800px;
+ margin: auto;
+
 }
 
 .landing > img {
     width: 100%;
 }
 
-.landing > div.container {
-   text-align: center;
+.landing > div.landing-text{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0,  .5);
+    padding: 40px;
+    
 }
 
 hr {
@@ -352,5 +371,9 @@ form > .row {
     .skillsText {
         margin-top: 2%;
     }
+}
+
+@media only screen and (max-width: 479px){
+    .landing-text { width: 100%; }
 }
 
