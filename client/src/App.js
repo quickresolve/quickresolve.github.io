@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
-  Switch,
-  Redirect
 } from 'react-router-dom'
 
 import '../node_modules/materialize-css/dist/css/materialize.min.css';

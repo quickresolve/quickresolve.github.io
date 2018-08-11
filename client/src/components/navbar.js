@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router,
     Link,
-    Switch,
-    Redirect
   } from 'react-router-dom'
 
 export default class NavBar extends Component {
@@ -94,7 +92,7 @@ export default class NavBar extends Component {
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/featured"}>Featured</Link></li>
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://drive.google.com/file/d/1Cawe-JyyKrAyLEW911TxCwiBWvrq8SaG/view?usp=sharing">CV</a></li>
-                        <li><a className='nav-text' onClick={this.closeNav} href="/contact">Contact</a></li>
+                        <li><a className='nav-text' onClick={this.closeNav} href="/#contact">Contact</a></li>
                     </ul>
                     </div>  
                 </nav>
