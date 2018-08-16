@@ -18,6 +18,8 @@ export default props=>{
                 demo={item.eventLink}
                 type={item.type}
                 date={item.date}
+                time={item.time}
+                location={item.location}
             />
         );
     });

@@ -3,12 +3,20 @@ import React from 'react';
 export default props =>{
     let detailsBtn = null;
     let codeBtn = null;
+    let location = null;
+    let time = null;
     
     if(props.demo !== ""){
         detailsBtn = (<a className="waves-effect waves-light btn" target="_blank" href={props.demo}><i className="material-icons right">present_to_all</i> details</a>);
     }
     if(props.code !== "") {
         codeBtn = (<a className="waves-effect waves-light btn" target="_blank" href={props.code}><i className="material-icons right">developer_mode</i> code</a>);
+    }
+    if(props.location !== "") {
+        location = (props.location);
+    }
+    if(props.time !== "") {
+        time = (props.time);
     }
     return(
     <div className="card col m6 s12 l4">
@@ -26,7 +34,7 @@ export default props =>{
         <div className="card-reveal">
             <span className="card-title card-open">{props.title}<i className="material-icons right">close</i></span>
             <p><strong>{props.type}</strong></p>
-            <p>{props.date}</p>
+            <p>{props.date} {time} {location}</p>
             <p>{props.info}</p>
             {codeBtn}
             {detailsBtn}

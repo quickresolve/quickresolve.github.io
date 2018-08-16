@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
+
 export default class Contact extends Component {
   constructor(props){
     super(props);
@@ -163,8 +164,9 @@ export default class Contact extends Component {
         <div className="container">
         <h3 className='white-color'>Contact Me</h3>
             <hr className='white-color sub'/>
-            <p className='text-faded contact'>The world becomes a better place when people truly express themselves.</p>
-            <div className="row">
+            <p className='text-faded contact'>The world becomes a better place when people truly express themselves. Reach out for a consultation, interview, or to book me for a lecture or presentation.</p>
+            <div className="row" >
+           
             
         <form className="col s12" onSubmit={this.sendData}>
           <div className="row">
@@ -192,7 +194,8 @@ export default class Contact extends Component {
         </button>
         {submitResult}
           </form>
-            </div>       
+             
+            </div> 
         </div>
         </section>
     );

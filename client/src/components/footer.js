@@ -18,19 +18,19 @@ export default props =>{
                 
                 <div className="row footerRow">
                 <div className="footer-links">
-                    <a target="_blank" href="https://www.linkedin.com/in/lnmontoya/"><img id="linkedin-logo" src={linkedinLogo} alt="LinkedIn" /><br/>LinkedIn</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lnmontoya/"><img id="linkedin-logo" src={linkedinLogo} alt="LinkedIn" /><br/>LinkedIn</a>
                 </div>
                 <div className="footer-links">
-                    <a target="_blank" href="https://medium.com/@QuickResolve"><img id="blog-icon" src={mediumLogo} alt="Blog" /><br/>Medium</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@QuickResolve"><img id="blog-icon" src={mediumLogo} alt="Blog" /><br/>Medium</a>
                 </div>
                 <div className="footer-links">
-                    <a target="_blank" href="https://www.facebook.com/laura.montoya.biz"><img id="blog-icon" src={facebookLogo} alt="Blog" /><br/>Facebook</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/laura.montoya.biz"><img id="blog-icon" src={facebookLogo} alt="Blog" /><br/>Facebook</a>
                 </div>
                 <div className="footer-links">
-                    <a target="_blank" href="https://twitter.com/QuickResolute"><img id="blog-icon" src={twitterLogo} alt="Blog" /><br/>Twitter</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/QuickResolute"><img id="blog-icon" src={twitterLogo} alt="Blog" /><br/>Twitter</a>
                 </div>
                 <div className="footer-links">
-                  <a className="" target="_blank" href="https://github.com/quickresolve"><img id="github-logo" src={githubLogo} alt="Github" /><br/>Github</a>
+                  <a className="" target="_blank" rel="noopener noreferrer" href="https://github.com/quickresolve"><img id="github-logo" src={githubLogo} alt="Github" /><br/>Github</a>
                 </div>
                 </div>
 

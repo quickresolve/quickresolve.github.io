@@ -280,6 +280,14 @@ p.text-faded.featured {
     background-color: #212529;
 }
 
+#contact > .container > .row {
+    align-items: center;
+}
+#contact-icon {
+    margin: auto;
+    float:none;
+}
+
 .input-field .prefix,
 .input-field input,
 .input-field textarea {

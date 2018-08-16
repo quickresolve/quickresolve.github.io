@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import {
-    BrowserRouter as Router,
     Link,
   } from 'react-router-dom'
 
@@ -93,8 +92,8 @@ export default class NavBar extends Component {
                         <li><a className='nav-text' onClick={this.closeNav} onMouseEnter={this.closeHover.bind(this)} onMouseLeave={this.closeNotHover.bind(this)}><i className={`${closeHover ? "white-color":"black-color"} material-icons left sideNavClose`}>close</i></a></li>
                         <li><a className='nav-text' onClick={this.closeNav} href="/#about">About</a></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/skills"}>Skills</Link></li>
-                        <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/featured"}>Featured</Link></li>
+                        <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://drive.google.com/file/d/1Cawe-JyyKrAyLEW911TxCwiBWvrq8SaG/view?usp=sharing">CV</a></li>
                         <li><a className='nav-text' onClick={this.closeNav} href="/#contact">Contact</a></li>
                     </ul>
@@ -109,8 +108,8 @@ export default class NavBar extends Component {
                     <ul className="right hide-on-sm-and-down">
                         <li><a className='nav-text' href="/#about">About</a></li>
                         <li><Link className='nav-text' to={"/skills"}>Skills</Link></li>
-                        <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li>
                         <li><Link className='nav-text' to={"/featured"}>Featured</Link></li>
+                        <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li>
                         <li><a className='nav-text' target='_blank' href="https://drive.google.com/file/d/1Cawe-JyyKrAyLEW911TxCwiBWvrq8SaG/view?usp=sharing">CV</a></li>
                         <li><a className='nav-text' href="/#contact">Contact</a></li>
                     </ul>
