@@ -1,4 +1,4 @@
-import techInclude from '../images/featured/tech-inclusion.png';
+import techInclude from '../images/featured/techinclude.png';
 import GDSC from '../images/featured/LXAI-GDSC.png';
 import thrival from '../images/featured/thrival.png';
 import ambient from '../images/featured/ambient.jpeg';
@@ -27,8 +27,36 @@ import WIT from '../images/featured/wittalks.png';
 import noroff from '../images/featured/noroff.png';
 import noroff2 from '../images/featured/noroff2.png';
 import ubiio from '../images/featured/ubi-io.jpg';
+import GAIC from '../images/featured/GAIC.jpeg';
+import ethicsThrival from '../images/featured/ethics-talk.png';
+import globalHive from '../images/featured/GlobalHive.png';
+import LXAINIPS from '../images/featured/nips-promo.png';
 
 export default [
+    {
+        name: 'LXAI Research @ NIPS',
+        info: 'LatinX in AI Coalition research workshop co-located with NIPS (Conference on Neural Information Processing Systems)',
+        img: LXAINIPS,
+        alt: 'LXAI@NIPS',
+        codeLink: "",
+        eventLink: "http://www.globalhive.ca/",
+        type: "Workshop",
+        date: "December 8th, 2018",
+        location: 'Palais des Congrès de Montréal (Montreal Convention Centre) in Montréal Canada',
+        time:'',
+    },
+    {
+        name: 'Global Hive Summit',
+        info: 'Intercouncil Network',
+        img: globalHive,
+        alt: 'Global Hive',
+        codeLink: "",
+        eventLink: "http://www.globalhive.ca/",
+        type: "Presentation",
+        date: "November 15th-18th, 2018",
+        location: ', Los Angeles, CA',
+        time:'',
+    },
     {
         name: 'Tech Inclusion - Voices of Innovation',
         info: 'Conference by Google for Entrepreneurs',
@@ -42,9 +70,21 @@ export default [
         time:'',
     },
     {
+        name: 'Global Artificial Intelligence Conference',
+        info: 'Are you concerned about social and ethical issues related to artificial intelligence (AI)? Whatever your background or experience, this workshop is for all will undoubtedly be affected by AI’s rapid impact on our shared world. This presentation is a mix of research-based scenarios with interactive discussions and activities, addressing the impact of AI on our society. Specific topics addressed include: Embedding Values into Autonomous Intelligent Systems, Methodologies to Guide Ethical Research and Design, Personal Data and Individual Access Control, and Economics/Humanitarian Issues of AI Development.',
+        img: GAIC,
+        alt: 'GAIC',
+        codeLink: "",
+        eventLink: "http://www.globalbigdataconference.com/boston/global-artificial-intelligence-conference-106/speaker-details/laura-montoya-62707.html",
+        type: "AI Ethics Workshop",
+        date: "September 25th, 2018",
+        location: ', Boston, MA',
+        time:'',
+    },
+    {
         name: 'Thrival Festival - HUMANS X TECH',
         info: 'Symposium, Summit, and Interactive Experience',
-        img: thrival,
+        img: ethicsThrival,
         alt: 'Thrival',
         codeLink: "",
         eventLink: "https://thrivalfestival.com/humans-x-tech/",
