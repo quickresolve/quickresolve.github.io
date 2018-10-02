@@ -31,6 +31,7 @@ import GAIC from '../images/featured/GAIC.jpeg';
 import ethicsThrival from '../images/featured/ethics-talk.png';
 import globalHive from '../images/featured/GlobalHive.png';
 import LXAINIPS from '../images/featured/nips-promo.png';
+import marketo from '../images/featured/marketo-panel.png';
 
 export default [
     {
@@ -68,6 +69,18 @@ export default [
         date: "October 16th, 2018",
         location: ', San Francisco, CA',
         time:'',
+    },
+    {
+        name: 'Momentum Presents: Estamos Unidos',
+        info: 'Inspired by Hispanic Heritage Month - Our panel of Latinx industry professionals will explore what it means to be Hispanic and Latinx working in the tech industry today by sharing their experiences and expertise.',
+        img: marketo,
+        alt: 'Marketo',
+        codeLink: "",
+        eventLink: "http://corp.marketo.jobs/Registration_Estamos-Unidos.html",
+        type: "Panel",
+        date: "October 4th, 2018",
+        location: ', San Mateo, CA',
+        time:'11:30AM PST',
     },
     {
         name: 'Global Artificial Intelligence Conference',
