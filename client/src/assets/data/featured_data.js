@@ -29,9 +29,10 @@ import noroff2 from '../images/featured/noroff2.png';
 import ubiio from '../images/featured/ubi-io.jpg';
 import GAIC from '../images/featured/GAIC.jpeg';
 import ethicsThrival from '../images/featured/ethics-talk.png';
-import globalHive from '../images/featured/GlobalHive.png';
+import globalHive from '../images/featured/global-hive.png';
 import LXAINIPS from '../images/featured/nips-promo.png';
 import marketo from '../images/featured/marketo-panel.png';
+import udacity from '../images/featured/udacity.png';
 
 export default [
     {
@@ -52,7 +53,7 @@ export default [
         img: globalHive,
         alt: 'Global Hive',
         codeLink: "",
-        eventLink: "http://www.globalhive.ca/",
+        eventLink: "http://www.global-hive.com/",
         type: "Presentation",
         date: "November 15th-18th, 2018",
         location: ', Los Angeles, CA',
@@ -106,6 +107,19 @@ export default [
         location: ', Pittsburg, PA',
         time:'',
     },
+    {
+        name: "An Insider’s Guide to Keeping Up with the AI Experts",
+        info: 'The Machine Learning community is busy sharing new research and insights on Twitter, and this is an extensive list of recommended AI researchers and pioneers to follow.',
+        img: udacity,
+        alt: 'Udacity Blog',
+        codeLink: "",
+        eventLink: "https://blog.udacity.com/2018/09/machine-learning-ai-experts-on-twitter.html",
+        type: "Udacity Publication",
+        date: "September 17th, 2018",
+        location: '',
+        time:'',
+    },
+
     {
         name: 'Global Big Data Conference',
         info: 'Intro To Artificial Intelligence Workshop By Latinx In AI Coalition - indepth walkthrough on Computer Vision and Natural Language Processing for Ethnic Image Captioning of Faces',
