@@ -33,17 +33,69 @@ import globalHive from '../images/featured/global-hive.png';
 import LXAINIPS from '../images/featured/nips-promo.png';
 import marketo from '../images/featured/marketo-panel.png';
 import udacity from '../images/featured/udacity.png';
+import TEDx from '../images/featured/TEDuncharted.png';
+import MXC from '../images/featured/LATAM_MXC.png';
+import MAI from '../images/featured/montrealAI.jpg';
+import NDI from '../images/featured/NeurIPSD&I.png';
 
 export default [
+    {
+        name: 'Workshop on Artificial Intelligence and Public Policy in Latin America',
+        info: 'The International Development Research Center (IDRC) in partnership with Centro Latam Digital, a digital policy think tank for Latin America.',
+        img: MXC,
+        alt: 'Latam Digital',
+        codeLink: "",
+        eventLink: "https://www.cide.edu/",
+        type: "Presentation",
+        date: "February 25th-26th, 2019",
+        location: 'Mexico City, Mexico',
+        time:'',
+    },
+    {
+        name: 'TEDx Uncharted: Modeling AI for Social Impact',
+        info: 'Explore the unknown, the undiscovered, and the unfamiliar. In this age of unprecedented discovery, we seek to plumb the depths of human experience. Join us as we map UNCHARTED territory across the realms of science, art, technology, culture, space, and time.',
+        img: TEDx,
+        alt: 'TEDx Splash',
+        codeLink: "",
+        eventLink: "https://www.tedxlagunablancaschool.com/",
+        type: "Presentation",
+        date: "January 29th, 2019",
+        location: 'Laguna Blanca School, Santa Barbra, CA',
+        time:'',
+    },
     {
         name: 'LXAI Research @ NIPS',
         info: 'LatinX in AI Coalition research workshop co-located with NIPS (Conference on Neural Information Processing Systems)',
         img: LXAINIPS,
         alt: 'LXAI@NIPS',
         codeLink: "",
-        eventLink: "http://www.globalhive.ca/",
+        eventLink: "http://www.latinxinai.org/neurips-2018",
         type: "Workshop",
         date: "December 8th, 2018",
+        location: 'Palais des Congrès de Montréal (Montreal Convention Centre) in Montréal Canada',
+        time:'',
+    },
+    {
+        name: 'AI Diversity Panel',
+        info: 'Montreal.AI Week 2018 Closing Panel re NeurIPS Diversity',
+        img: MAI,
+        alt: '',
+        codeLink: "https://youtu.be/9hgvX8xvKLk",
+        eventLink: "https://www.eventbrite.ca/e/montreal-ai-week-2018-closing-meetup-cocktail-neurips2018-mtlaiweek-tickets-53238549936#",
+        type: "Panel",
+        date: "December 7th, 2018",
+        location: 'Desjardins Lab in Montréal Canada',
+        time:'',
+    },
+    {
+        name: 'NeurIPS D&I Town Hall',
+        info: 'The Town Hall will be moderated by Susan Gonzales and the panel includes leaders of conference-affiliated affinity groups and members of the Foundation Board and the 2018 Organizing Committee.',
+        img: NDI,
+        alt: '',
+        codeLink: "",
+        eventLink: "https://www.facebook.com/nipsfoundation/videos/284660435523814/",
+        type: "Panel",
+        date: "December 4th, 2018",
         location: 'Palais des Congrès de Montréal (Montreal Convention Centre) in Montréal Canada',
         time:'',
     },
