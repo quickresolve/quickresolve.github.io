@@ -1,6 +1,6 @@
 import React from 'react';
 
-import about from '../assets/images/about/lnm-headshot.jpg';
+import about from '../assets/images/about/LNM_Headshot.jpg';
 
 
 export default props =>{

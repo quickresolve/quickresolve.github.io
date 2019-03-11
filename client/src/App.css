@@ -110,8 +110,8 @@ nav .button-collapse {
 .landing{
  background-size: cover;
  background-position: center;
- background-image: url('./assets/images/landing/splash.jpg') ;
- height: 800px;
+ background-image: url('./assets/images/landing/ai_model.jpg') ;
+ height: 650px;
  margin: auto;
 
 }
