@@ -3,6 +3,7 @@ import React from 'react';
 export default props =>{
     let detailsBtn = null;
     let codeBtn = null;
+    let videoBtn = null;
     let location = null;
     let time = null;
     
@@ -11,6 +12,9 @@ export default props =>{
     }
     if(props.code !== "") {
         codeBtn = (<a className="waves-effect waves-light btn" target="_blank" href={props.code}><i className="material-icons right">developer_mode</i> code</a>);
+    }
+    if(props.video !== "") {
+        videoBtn = (<a className="waves-effect waves-light btn" target="_blank" href={props.video}><i className="material-icons right">developer_mode</i> video</a>);
     }
     if(props.location !== "") {
         location = (props.location);
@@ -27,6 +31,7 @@ export default props =>{
             <span className="card-title activator">{props.title}<i className="material-icons right">add</i></span>
             <p><strong>{props.type}</strong></p>
             <p>{props.date}</p>
+            {videoBtn}
             {codeBtn}
             {detailsBtn}        
         </div>
@@ -36,6 +41,7 @@ export default props =>{
             <p><strong>{props.type}</strong></p>
             <p>{props.date} {time} {location}</p>
             <p>{props.info}</p>
+            {videoBtn}
             {codeBtn}
             {detailsBtn}
         </div>
