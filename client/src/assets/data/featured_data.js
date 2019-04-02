@@ -37,8 +37,39 @@ import MXC from '../images/featured/LATAM_MXC.png';
 import MAI from '../images/featured/montrealAI.jpg';
 import NDI from '../images/featured/NeurIPSD&I.png';
 import GTC from '../images/featured/gtc-lab-header.jpeg';
+import GTCWOMEN from '../images/featured/womenai-gtc.png';
+import AISHOWBIZ from '../images/featured/ai-showbiz.png';
+import B4A from '../images/featured/blockchain4all.png';
+import FORBESETHICS from '../images/featured/ethics-committee.png';
+import FORBESWOMEN from '../images/featured/forbes-leadership.png';
 
 export default [
+    {
+        name: 'Breaking Down Walls Panel',
+        info: 'Panel on Diversity in AI, Entertainment, and Blockchain at AIShowBiz Summit 3.0',
+        img: AISHOWBIZ,
+        alt: 'AI Showbiz Header',
+        codeLink: "",
+        eventLink: "https://aishow.biz/speakers/",
+        videoLink: "",
+        type: "Panel",
+        date: "May 3rd, 2019",
+        location: 'Fox Theater, Redwood City, CA',
+        time:'5:00pm',
+    },
+    {
+        name: 'Blockchain for All Conference',
+        info: 'Inclusion in Emerging Technology Panel',
+        img: B4A,
+        alt: 'B4A Header',
+        codeLink: "",
+        eventLink: "http://blockchainforall.io/",
+        videoLink: "",
+        type: "Panel",
+        date: "April 12th, 2019",
+        location: 'Geoffrey’s Inner Circle, Oakland, CA',
+        time:'2:00 - 7:00pm',
+    },
     {
         name: 'GTC Lab: Auto Image Captioning in Pytorch',
         info: 'In this lab we will walkthrough an example of image captioning in Pytorch. We will begin by downloading and training on the coco image dataset, review data augmentation with croping, rotating, flipping and resizing images. We will then build a vocabulary for the image annotations and encode the sequences as captions. Our model for this task includes a pretrained encoder CNN to compute features on each image and the decoder RNN which handles the captioning. I will show you the results of training and evalution from this model including automatically captioning images not included in the training set.',
@@ -51,6 +82,32 @@ export default [
         date: "March 21st, 2019",
         location: 'GPU Technology Conference, San Jose, CA',
         time:'8:00-10:00 am',
+    },
+    {
+        name: 'Why Not Me? How Laura Montoya Is Increasing Representation in Artificial Intelligence',
+        info: 'Forbes Leadership Feature',
+        img: FORBESWOMEN,
+        alt: 'Forbes Feature Header',
+        codeLink: "",
+        eventLink: "https://www.forbes.com/sites/mollysprayregen/2019/03/20/why-not-me-how-laura-montoya-is-increasing-representation-in-artificial-intelligence/#5e820c666daf",
+        videoLink: "",
+        type: "Forbes Publication",
+        date: "March 20th, 2019",
+        location: '',
+        time:'',
+    },
+    {
+        name: 'AI Through the Diversity & Social Impact Lens',
+        info: 'Hear from Laura Montoya (Co-chair, Latinx in AI and Founder, Accel.AI), scientist and engineer turned serial entrepreneur and startup advisor, around her goal of driving more diversity and social impact in AI.',
+        img: GTCWOMEN,
+        alt: 'GTC Women in AI Header',
+        codeLink: "",
+        eventLink: "https://www.nvidia.com/en-us/gtc/topics/women-in-ai/",
+        videoLink: "",
+        type: "Presentation",
+        date: "March 19th, 2019",
+        location: 'GPU Technology Conference, San Jose, CA',
+        time:'8:30 am',
     },
     {
         name: 'Workshop on Artificial Intelligence and Public Policy in Latin America',
@@ -208,6 +265,19 @@ export default [
         date: "August 30th, 2018",
         location: ', Santa Clara Convention Center, Santa Clara, CA',
         time:', 9:00AM - 2:00PM PST',
+    },
+    {
+        name: 'The Artificial Intelligence Ethics Committee',
+        info: 'Forbes Article',
+        img: FORBESETHICS,
+        alt: 'Article Heading',
+        codeLink: "",
+        eventLink: "https://www.forbes.com/sites/zarastone/2018/06/11/the-artificial-intelligence-ethics-committee/#7a682a241637",
+        videoLink: "",
+        type: "Forbes Article",
+        date: "June 11th, 2018",
+        location: '',
+        time:'',
     },
     {
         name: 'Ambient Human Experiences',
