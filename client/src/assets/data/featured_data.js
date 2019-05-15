@@ -42,8 +42,22 @@ import AISHOWBIZ from '../images/featured/ai-showbiz.png';
 import B4A from '../images/featured/blockchain4all.png';
 import FORBESETHICS from '../images/featured/ethics-committee.png';
 import FORBESWOMEN from '../images/featured/forbes-leadership.png';
+import SOC172 from '../images/featured/soc172.png';
 
 export default [
+    {
+        name: 'Artificial Intelligence for Social Impact: LatinX in AI Case Study',
+        info: 'Invited guest lecture on the LatinX in AI organization as a case study for creating social impact with artificial intelligence for Stanford SOC 172 class.',
+        img: SOC172,
+        alt: 'Presentation Header Slide',
+        codeLink: "",
+        eventLink: "https://sociology.stanford.edu/courses/2018-2019-soc-172",
+        videoLink: "",
+        type: "Presentation",
+        date: "May 17th, 2019",
+        location: 'Stanford University',
+        time:'12:00pm',
+    },
     {
         name: 'Breaking Down Walls Panel',
         info: 'Panel on Diversity in AI, Entertainment, and Blockchain at AIShowBiz Summit 3.0',

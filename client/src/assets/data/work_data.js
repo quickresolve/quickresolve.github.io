@@ -10,8 +10,18 @@ import imageclass from '../images/work/image-class.png';
 import AILAW from '../images/featured/ai-law.png';
 import AIGENOMICS from '../images/work/ai-genomics.png';
 import diversity from '../images/work/diversity.png';
+import GTC from '../images/featured/gtc-lab-header.jpeg';
 
 export default [
+    {
+        name: 'GTC Lab: Auto Image Captioning in Pytorch',
+        info: 'In this lab we will walkthrough an example of image captioning in Pytorch. We will begin by downloading and training on the coco image dataset, review data augmentation with croping, rotating, flipping and resizing images. We will then build a vocabulary for the image annotations and encode the sequences as captions. Our model for this task includes a pretrained encoder CNN to compute features on each image and the decoder RNN which handles the captioning. I will show you the results of training and evalution from this model including automatically captioning images not included in the training set.',
+        img: GTC,
+        alt: 'GTC Lab Header',
+        codeLink: "https://github.com/latinxinai/Intro-Image-Captioning-Lab",
+        demoLink: "https://www.meetup.com/Artificial-Intelligence-Deep-Learning-Enthusiasts-Meetup/events/259139154/",
+        type: "Technical Workshop",
+    },
     {
         name: 'AI and Law Mini-course',
         info: 'The AI and Law Mini-course is designed to expose students to real-world use cases of Artificial Intelligence in law practice. Well begin with a high-level overview of artificial intelligence concepts and techniques, then walk through an applied example of topic modeling for supreme court cases using Natural Language Processing. Youll also learn where to find public datasets for use in future research and applications.',
