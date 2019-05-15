@@ -14,7 +14,7 @@ export default props =>{
               <div className="col s12">
                 <h3>Let's Connect!</h3>
                 <hr className="sub"/>
-                <p className="text-faded contact dark">Obey the principles without being bound by them.</p>
+                <p className="text-faded contact dark"><em>"I like nonsense; it wakes up the brain cells."</em> - Dr. Seuss</p>
                 
                 <div className="row footerRow">
                 <div className="footer-links">
