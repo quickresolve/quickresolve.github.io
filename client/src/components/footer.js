@@ -12,9 +12,9 @@ export default props =>{
           <div className="container">
             <div className="row">
               <div className="col s12">
-                <h3>Let's Connect!</h3>
-                <hr className="sub"/>
-                <p className="text-faded contact dark"><em>"I like nonsense; it wakes up the brain cells."</em> - Dr. Seuss</p>
+                <h3 className='white-color'>Let's Connect!</h3>
+                <hr className='white-color sub'/>
+                <p className="text-faded contact"><em>"I like nonsense; it wakes up the brain cells."</em> - Dr. Seuss</p>
                 
                 <div className="row footerRow">
                 <div className="footer-links">
@@ -38,9 +38,9 @@ export default props =>{
             </div>
           </div>
           <div className="footer-copyright">
-            <div className="container">
+            <div className="container white-color">
             Laura N. Montoya © 2018
-            <div className="right">Built with React and MaterializeCSS</div> 
+            <div className="right white-color">Built with React and MaterializeCSS</div> 
             </div>
           </div>
         </section>

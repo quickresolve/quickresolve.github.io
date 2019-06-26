@@ -30,7 +30,6 @@ class App extends Component {
           <Route path="/featured" component={Featured} />
           <Route path="/skills" component={Skills} />
           <Route path="/portfolio" component={Portfolio} />
-          <Contact/>
           <Footer/>
         </div>
       </Router>
