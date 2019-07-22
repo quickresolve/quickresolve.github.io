@@ -23,9 +23,9 @@ export default props =>{
         time = (props.time);
     }
     return(
-    <div className="card col m6 s12 l4">
+    <div className="card large col m6 s12 l4">
         <div className="card-image waves-effect waves-block waves-light">
-            <img className="activator work-img" src={props.src} alt={props.alt}/>
+            <img  className="activator work-img responsive-img" src={props.src} alt={props.alt}/>
         </div>
         <div className="card-content">
             <span className="card-title activator">{props.title}<i className="material-icons right">add</i></span>
