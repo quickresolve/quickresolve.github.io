@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.903d5f0f.css",
   "main.css.map": "static/css/main.903d5f0f.css.map",
-  "main.js": "static/js/main.9c518bab.js",
-  "main.js.map": "static/js/main.9c518bab.js.map",
+  "main.js": "static/js/main.73224df5.js",
+  "main.js.map": "static/js/main.73224df5.js.map",
   "static/media/AIFF.png": "static/media/AIFF.c011feed.png",
   "static/media/CIIS.png": "static/media/CIIS.5abfe4a7.png",
   "static/media/GAIC.jpeg": "static/media/GAIC.4df2bb2c.jpeg",
@@ -44,6 +44,7 @@
   "static/media/decentralized.png": "static/media/decentralized.9db5a83d.png",
   "static/media/diamond.png": "static/media/diamond.36f915f2.png",
   "static/media/digital.png": "static/media/digital.bc445da7.png",
+  "static/media/dinner_reception.png": "static/media/dinner_reception.de87636c.png",
   "static/media/diversity.png": "static/media/diversity.ef539547.png",
   "static/media/empowered.png": "static/media/empowered.90ece9b1.png",
   "static/media/ethics-ai.png": "static/media/ethics-ai.65704cd7.png",
