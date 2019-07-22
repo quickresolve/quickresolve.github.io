@@ -43,9 +43,23 @@ import B4A from '../images/featured/blockchain4all.png';
 import FORBESETHICS from '../images/featured/ethics-committee.png';
 import FORBESWOMEN from '../images/featured/forbes-leadership.png';
 import SOC172 from '../images/featured/soc172.png';
-import Verz from '../images/featured/ai-construction.png'
+import Verz from '../images/featured/ai-construction.png';
+import DINNER from '../images/featured/dinner_reception.png'
 
 export default [
+    {
+        name: 'LatinX in AI Dinner Reception',
+        info: 'Company Intro',
+        img: DINNER,
+        alt: 'flyer',
+        codeLink: "",
+        eventLink: "",
+        videoLink: "",
+        type: "",
+        date: "July 22nd, 2019",
+        location: 'The Grove, Redwood City, CA',
+        time:'7:00-10:00pm',
+    },
     {
         name: 'Caution: Only proceed with artificial intelligence',
         info: 'Advances in robotics, machine learning and AI have helped create safety solutions for the world’s most dangerous jobs.',
