@@ -94,7 +94,6 @@ export default class NavBar extends Component {
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/featured"}>Featured</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/skills"}>Skills</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
-                        <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://drive.google.com/file/d/1Mcx4YhvaH_vZGeMjUEZAJVGmaIp-4yC_/view?usp=sharing">CV</a></li>
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://speakerhub.com/speaker/laura-montoya">Book Me</a></li>
                         {/* <li><a className='nav-text' onClick={this.closeNav} href="/#contact">Contact</a></li> */}
                     </ul>
@@ -111,7 +110,6 @@ export default class NavBar extends Component {
                         <li><Link className='nav-text' to={"/featured"}>Featured</Link></li>
                         <li><Link className='nav-text' to={"/skills"}>Skills</Link></li>
                         <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li>
-                        <li><a className='nav-text' target='_blank' href="https://drive.google.com/file/d/1Mcx4YhvaH_vZGeMjUEZAJVGmaIp-4yC_/view?usp=sharing">CV</a></li>
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://speakerhub.com/speaker/laura-montoya">Book Me</a></li>
                         {/* <li><a className='nav-text' href="/#contact">Contact</a></li> */}
                     </ul>
