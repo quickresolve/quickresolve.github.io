@@ -44,74 +44,18 @@ import FORBESETHICS from '../images/featured/ethics-committee.png';
 import FORBESWOMEN from '../images/featured/forbes-leadership.png';
 import SOC172 from '../images/featured/soc172.png';
 import Verz from '../images/featured/ai-construction.png';
-import DINNER from '../images/featured/dinner_reception.png';
-import MLM from '../images/featured/mlm.png';
-import GTCDC from '../images/featured/gtcdc.png';
-import ISTAS from '../images/featured/ISTAS.png';
-import MIT from '../images/featured/mit-summit.png';
+import DINNER from '../images/featured/dinner_reception.png'
 
 export default [
     {
-        name: 'AI LATIN AMERICA SUMMIT',
-        info: 'TBA',
-        img: MIT,
-        alt: 'flyer',
-        codeLink: "",
-        eventLink: "http://ailatinsum.mit.edu/",
-        videoLink: "",
-        type: "Presentation",
-        date: "January 21st-23rd, 2020",
-        location: 'CAMBRIDGE, MA',
-        time:'',
-    },
-    {
-        name: 'Government AI Readiness Meta-Analysis for Latin America and the Caribbean',
-        info: 'Artificial intelligence (AI)-based technology has the potential of transforming how governments function, making them better able to serve, protect, and improve the quality of life of their constituents. As governments of developing countries continue to shift to more advanced digital platforms, they have adopted practices and policies that have a direct impact on the future of AI-based technology. This research aims to discuss factors that may have a direct impact on the AI preparedness of Latin America and the Caribbean (LAC) countries. It evaluates a recent ranking developed by the international development research center (IDRC) focused on indicators towards the development or use of AI technology in governance, infrastructure, technological skills, and public services against each country’s economic metrics including unemployment rate, gross domestic product per capita purchasing power parity (GDP-PPP), cost to hire an AI researcher and countrywide education levels. It also reviews metrics and factors outside of economics which have a direct impact on AI readiness and its effects on each country’s citizens, including automation potential and data privacy policies. This research discusses current issues with existing evaluation criteria for AI readiness and expands factors and considerations essential to LAC countries as they embrace the AI revolution.',
-        img: ISTAS,
-        alt: 'flyer',
-        codeLink: "",
-        eventLink: "https://attend.ieee.org/istas-2019/program/",
-        videoLink: "",
-        type: "Presentation",
-        date: "November 16th, 2019",
-        location: 'IEEE ISTAS 2019, School of Engineering of Tufts University, Medford Campus, Boston, MA',
-        time:'3:00 pm',
-    },
-    {
-        name: 'The Workforce of the Future: Training and Encouraging the Next Generation of Developers.',
-        info: 'A panel of experts from government, nonprofits, and business who will discuss their efforts to create opportunities for the next generation of workers. They’ll share examples of their successes across socioeconomic, racial, and ethnic boundaries in reskilling non-technical employees, upskilling employees into data science and IT roles, and preparing engineers and computer scientists for AI and machine learning.',
-        img: GTCDC,
-        alt: 'flyer',
-        codeLink: "",
-        eventLink: "https://www.nvidia.com/en-us/gtc-dc/",
-        videoLink: "",
-        type: "Panel",
-        date: "November 5th, 2019",
-        location: 'The Ronald Reagan Building and International Trade Center, Atrium Hall, Washington DC',
-        time:'5:30 pm',
-    },
-    {
-        name: 'LatinX in AI (LXAI): Medellin Town Hall Forum',
-        info: 'The goal of these forums is to meet and engage with regional AI and ML practitioners, researchers, activists, and companies across South and Central America. The town hall aims to bring awareness to the topics and issues specific to each city.',
-        img: MLM,
-        alt: 'flyer',
-        codeLink: "",
-        eventLink: "https://www.meetup.com/ml-medellin/events/265216257/",
-        videoLink: "",
-        type: "Presentation",
-        date: "October 15th, 2019",
-        location: 'Centro Empresarial One Plaza, Av. El Poblado #5A 113, Medellín, Colombia',
-        time:'6:30-9:00pm CST',
-    },
-    {
         name: 'LatinX in AI Dinner Reception',
-        info: 'Introduction to the LatinX in AI (LXAI) Organization',
+        info: 'Company Intro',
         img: DINNER,
         alt: 'flyer',
         codeLink: "",
         eventLink: "",
         videoLink: "",
-        type: "Presentation",
+        type: "",
         date: "July 22nd, 2019",
         location: 'The Grove, Redwood City, CA',
         time:'7:00-10:00pm',
