@@ -1,0 +1,33 @@
+{
+  "name": "create-react-portfolio",
+  "version": "0.1.0",
+  "author": "Laura Montoya",
+  "license": "MIT",
+  "homepage": "http://www.lauranmontoya.com",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-polyfill": "^6.26.0",
+    "materialize-css": "^0.100.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-textfit": "^1.1.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "gh-pages": "^1.2.0"
+  }
+}
