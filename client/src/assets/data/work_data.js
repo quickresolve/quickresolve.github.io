@@ -11,8 +11,18 @@ import AILAW from '../images/featured/ai-law.png';
 import AIGENOMICS from '../images/work/ai-genomics.png';
 import diversity from '../images/work/diversity.png';
 import GTC from '../images/featured/gtc-lab-header.jpeg';
+import ISTAS from '../images/featured/ISTAS.png';
 
 export default [
+    {
+        name: 'Government AI Readiness Meta-Analysis for LAC',
+        info: 'Artificial intelligence (AI)-based technology has the potential of transforming how governments function, making them better able to serve, protect, and improve the quality of life of their constituents. As governments of developing countries continue to shift to more advanced digital platforms, they have adopted practices and policies that have a direct impact on the future of AI-based technology. This research aims to discuss factors that may have a direct impact on the AI preparedness of Latin America and the Caribbean (LAC) countries. It evaluates a recent ranking developed by the international development research center (IDRC) focused on indicators towards the development or use of AI technology in governance, infrastructure, technological skills, and public services against each countrys economic metrics including unemployment rate, gross domestic product per capita purchasing power parity (GDP-PPP), cost to hire an AI researcher, and countrywide education levels. It also reviews metrics and factors outside of economics which have a direct impact on AI readiness and its effects on each countrys citizens, including automation potential and data privacy policies. This research discusses current issues with existing evaluation criteria for AI readiness and expands factors and considerations essential to LAC countries as they embrace the AI revolution.',
+        img: ISTAS,
+        alt: 'ISTAS Header',
+        codeLink: "",
+        demoLink: "https://ieeexplore.ieee.org/document/8937869",
+        type: "Research Publication",
+    },
     {
         name: 'GTC Lab: Auto Image Captioning in Pytorch',
         info: 'In this lab we will walkthrough an example of image captioning in Pytorch. We will begin by downloading and training on the coco image dataset, review data augmentation with croping, rotating, flipping and resizing images. We will then build a vocabulary for the image annotations and encode the sequences as captions. Our model for this task includes a pretrained encoder CNN to compute features on each image and the decoder RNN which handles the captioning. I will show you the results of training and evalution from this model including automatically captioning images not included in the training set.',
@@ -23,7 +33,7 @@ export default [
         type: "Technical Workshop",
     },
     {
-        name: 'AI and Law Mini-course',
+        name: 'AI and Law Mini-course Santa Clara University',
         info: 'The AI and Law Mini-course is designed to expose students to real-world use cases of Artificial Intelligence in law practice. Well begin with a high-level overview of artificial intelligence concepts and techniques, then walk through an applied example of topic modeling for supreme court cases using Natural Language Processing. Youll also learn where to find public datasets for use in future research and applications.',
         img: AILAW,
         alt: 'AILAW Promo',
