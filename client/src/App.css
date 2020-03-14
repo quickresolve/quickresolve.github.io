@@ -347,6 +347,21 @@ form > .row {
     text-align: center;
 }
 
+.seen-container {
+    margin-left:0;
+    margin-right:0;
+}
+
+.seen-links {
+    display: inline-block;
+    text-align: center;
+    margin: 3%;
+}
+
+.row.seenRow {
+    text-align: center;
+}
+
 #github-logo,
 #linkedin-logo,
 #blog-icon {
