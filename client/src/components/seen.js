@@ -35,18 +35,6 @@ export default props =>{
                         <a target="_blank" rel="noopener noreferrer" href=""><img id="thrival-logo" src={thrivalLogo} alt="thrival" /></a>
                     </div>
                     <div className="seen-links">
-                        <a target="_blank" rel="noopener noreferrer" href=""><img id="gtc-logo" src={gtcLogo} alt="gtc" /></a>
-                    </div>
-                    <div className="seen-links">
-                        <a target="_blank" rel="noopener noreferrer" href=""><img id="ciis-logo" src={ciisLogo} alt="ciis" /></a>
-                    </div>
-                    <div className="seen-links">
-                        <a target="_blank" rel="noopener noreferrer" href=""><img id="wtm-logo" src={wtmLogo} alt="women tech makers" /></a>
-                    </div>
-                    <div className="seen-links">
-                        <a target="_blank" rel="noopener noreferrer" href=""><img id="svai-logo" src={svaiLogo} alt="svai" /></a>
-                    </div>
-                    <div className="seen-links">
                         <a target="_blank" rel="noopener noreferrer" href=""><img id="mit-logo" src={mitLogo} alt="mit" /></a>
                     </div>
                     <div className="seen-links">
@@ -58,8 +46,19 @@ export default props =>{
                     <div className="seen-links">
                         <a target="_blank" rel="noopener noreferrer" href=""><img id="kff-logo" src={kffLogo} alt="katapult future fest" /></a>
                     </div>
+                    <div className="seen-links">
+                        <a target="_blank" rel="noopener noreferrer" href=""><img id="gtc-logo" src={gtcLogo} alt="gtc" /></a>
+                    </div>
+                    <div className="seen-links">
+                        <a target="_blank" rel="noopener noreferrer" href=""><img id="ciis-logo" src={ciisLogo} alt="ciis" /></a>
+                    </div>
+                    <div className="seen-links">
+                        <a target="_blank" rel="noopener noreferrer" href=""><img id="wtm-logo" src={wtmLogo} alt="women tech makers" /></a>
+                    </div>
+                    <div className="seen-links">
+                        <a target="_blank" rel="noopener noreferrer" href=""><img id="svai-logo" src={svaiLogo} alt="svai" /></a>
+                    </div>
                 </div>
-                <p className="text-faded contact"><em>"I like nonsense; it wakes up the brain cells."</em> - Dr. Seuss</p>
               </div>
             </div>    
           </div>     
