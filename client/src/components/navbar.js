@@ -91,6 +91,7 @@ export default class NavBar extends Component {
                     <ul className={`side-nav ${this.state.open ? 'visible': 'hidden' }`} tabIndex="0" onBlur={ this.closeNav }>
                         <li><a className='nav-text' onClick={this.closeNav} onMouseEnter={this.closeHover.bind(this)} onMouseLeave={this.closeNotHover.bind(this)}><i className={`${closeHover ? "white-color":"black-color"} material-icons left sideNavClose`}>close</i></a></li>
                         <li><a className='nav-text' onClick={this.closeNav} href="/#about">About</a></li>
+                        <li><Link className='nav-text' onClick={this.closeNav} to={"/purpose"}>Purpose</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/featured"}>Featured</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/skills"}>Skills</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
@@ -107,6 +108,7 @@ export default class NavBar extends Component {
                     <Link className='nav-text-name' to="/">Laura N Montoya</Link>
                     <ul className="right hide-on-sm-and-down">
                         <li><a className='nav-text' href="/#about">About</a></li>
+                        <li><Link className='nav-text' to={"/purpose"}>Purpose</Link></li>
                         <li><Link className='nav-text' to={"/featured"}>Featured</Link></li>
                         <li><Link className='nav-text' to={"/skills"}>Skills</Link></li>
                         <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li>

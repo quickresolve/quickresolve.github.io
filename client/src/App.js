@@ -19,6 +19,7 @@ import Portfolio from './components/work';
 import Skills from './components/skills';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Purpose from './components/purpose';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/featured" component={Featured} />
           <Route path="/skills" component={Skills} />
           <Route path="/portfolio" component={Portfolio} />
+          <Route path="/purpose" component={Purpose} />
           <Footer/>
         </div>
       </Router>

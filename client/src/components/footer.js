@@ -39,7 +39,7 @@ export default props =>{
           </div>
           <div className="footer-copyright">
             <div className="container white-color">
-            Laura N. Montoya © 2018-2019
+            Laura N. Montoya © 2018-2020
             <div className="right white-color">Built with React and MaterializeCSS</div> 
             </div>
           </div>
