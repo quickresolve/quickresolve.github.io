@@ -38,7 +38,7 @@ import MAI from '../images/featured/montrealAI.jpg';
 import NDI from '../images/featured/NeurIPSD&I.png';
 import GTC from '../images/featured/gtc-lab-header.jpeg';
 import GTCWOMEN from '../images/featured/womenai-gtc.png';
-import AISHOWBIZ from '../images/featured/ai-showbiz.png';
+import AISHOWBIZ from '../images/featured/AIShowBiz.jpeg';
 import B4A from '../images/featured/blockchain4all.png';
 import FORBESETHICS from '../images/featured/ethics-committee.png';
 import FORBESWOMEN from '../images/featured/forbes-leadership.png';
@@ -49,11 +49,25 @@ import MLM from '../images/featured/mlm.png';
 import GTCDC from '../images/featured/gtcdc.png';
 import ISTAS from '../images/featured/ISTAS.png';
 import MIT from '../images/featured/mit-summit.png';
+import AISHOWBIZ20 from '../images/featured/AIShowBiz2020.png';
 
 export default [
     {
+        name: 'AIShowBiz4.0: LatinX Trail Blazer Fireside Chat',
+        info: '#AIShowBiz Summit 4.0 is an exclusive gathering of world-renowned innovators in AI, Entertainment and Emerging Technologies dedicated to positively impacting the planet taking place May 4-6, 2020.',
+        img: AISHOWBIZ20,
+        alt: 'flyer',
+        codeLink: "",
+        eventLink: "https://www.aishow.biz/talks",
+        videoLink: "https://youtu.be/8daJtiEuMw4",
+        type: "Fireside Chat",
+        date: "May 5,2020",
+        location: 'Virtual',
+        time:'',
+    },
+    {
         name: 'AI LATIN AMERICA SUMMIT',
-        info: 'TBA',
+        info: '',
         img: MIT,
         alt: 'flyer',
         codeLink: "",
