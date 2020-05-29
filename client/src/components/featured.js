@@ -31,6 +31,7 @@ export default props=>{
             <p className='text-faded featured'>Speaking Engagements, Publications, and Media Coverage</p>
             <div className="row center">
                 <iframe 
+                    title="tedx"
                     width="560" 
                     height="315" 
                     src="https://www.youtube.com/embed/VsaBdiFnZKw" 

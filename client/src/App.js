@@ -17,7 +17,7 @@ import Home from './components/home';
 import Featured from './components/featured';
 // import Portfolio from './components/work';
 // import Skills from './components/skills';
-import Contact from './components/contact';
+// import Contact from './components/contact';
 import Footer from './components/footer';
 import Purpose from './components/purpose';
 
