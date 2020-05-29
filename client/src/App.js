@@ -15,8 +15,8 @@ import './App.css';
 import NavBar from './components/navbar';
 import Home from './components/home';
 import Featured from './components/featured';
-import Portfolio from './components/work';
-import Skills from './components/skills';
+// import Portfolio from './components/work';
+// import Skills from './components/skills';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Purpose from './components/purpose';
@@ -29,8 +29,8 @@ class App extends Component {
           <NavBar/>
           <Route exact={true} path="/" component={Home} />
           <Route path="/featured" component={Featured} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/portfolio" component={Portfolio} />
+          {/* <Route path="/skills" component={Skills} />
+          <Route path="/portfolio" component={Portfolio} /> */}
           <Route path="/purpose" component={Purpose} />
           <Footer/>
         </div>

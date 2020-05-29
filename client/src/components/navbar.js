@@ -93,8 +93,8 @@ export default class NavBar extends Component {
                         <li><a className='nav-text' onClick={this.closeNav} href="/#about">About</a></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/purpose"}>Purpose</Link></li>
                         <li><Link className='nav-text' onClick={this.closeNav} to={"/featured"}>Featured</Link></li>
-                        <li><Link className='nav-text' onClick={this.closeNav} to={"/skills"}>Skills</Link></li>
-                        <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li>
+                        {/* <li><Link className='nav-text' onClick={this.closeNav} to={"/skills"}>Skills</Link></li>
+                        <li><Link className='nav-text' onClick={this.closeNav} to={"/portfolio"}>Portfolio</Link></li> */}
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://speakerhub.com/speaker/laura-montoya">Book Me</a></li>
                         {/* <li><a className='nav-text' onClick={this.closeNav} href="/#contact">Contact</a></li> */}
                     </ul>
@@ -110,8 +110,8 @@ export default class NavBar extends Component {
                         <li><a className='nav-text' href="/#about">About</a></li>
                         <li><Link className='nav-text' to={"/purpose"}>Purpose</Link></li>
                         <li><Link className='nav-text' to={"/featured"}>Featured</Link></li>
-                        <li><Link className='nav-text' to={"/skills"}>Skills</Link></li>
-                        <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li>
+                        {/* <li><Link className='nav-text' to={"/skills"}>Skills</Link></li>
+                        <li><Link className='nav-text' to={"/portfolio"}>Portfolio</Link></li> */}
                         <li><a className='nav-text' onClick={this.closeNav} target='_blank' href="https://speakerhub.com/speaker/laura-montoya">Book Me</a></li>
                         {/* <li><a className='nav-text' href="/#contact">Contact</a></li> */}
                     </ul>
