@@ -6,7 +6,7 @@ export default props =>{
         <div className='landing'>
             <div className='landing-text'>
                 <h1>Laura Montoya</h1>
-                <h5>Entrepreneur | Technologist | Speaker</h5>
+                <h5>Scientist | Technologist | Entrepreneur</h5>
             </div>
         </div>
     );
