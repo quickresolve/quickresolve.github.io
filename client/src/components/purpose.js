@@ -21,7 +21,7 @@ export default props =>{
             <div className='row'>
                 <img id="aboutImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src={aibiz} alt="gesturing"/>
             </div>
-            <div className="text center-align">
+            <div className="text subscript center-align">
                 <em>
                 “I learned a long time ago the wisest thing I can do is be on my own side, be an advocate for myself and others like me.”
                 </em> 
@@ -33,7 +33,7 @@ export default props =>{
             <div className='row'>
                 <img id="aboutImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src={gest} alt="gesturing"/>
             </div>
-            <div className="text center-align">
+            <div className="text subscript center-align">
                 <em>
                 “By learning you will teach; By teaching you will learn”
                 </em> 
@@ -49,8 +49,8 @@ export default props =>{
             <div className='row'>
             <img id="lacImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src={LAC} alt="LATAM AI Conf"/>
             </div>
-            <div className="text small center-align">
-                Sharing My Research on Evolving AI Potential in Latin America
+            <div className="text center-align subscript">
+                Sharing my research on "Evolving AI Potential in Latin America" at MIT
             </div>
             
         </div>

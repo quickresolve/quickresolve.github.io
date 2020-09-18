@@ -16,7 +16,7 @@ export default props =>{
             <div className='row'>
             <img id="aboutImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src={about} alt="About me"/>
             </div>
-            <div className="text-faded center-align"><em>“When I let go of what I am, I become what I might be.”</em> ~ Lao Tzu</div>
+            <div className="text-faded subscript center-align"><em>“When I let go of what I am, I become what I might be.”</em> ~ Lao Tzu</div>
             <p className='text-faded'>Scientist and engineer turned serial entrepreneur and startup advisor. I appreciate the experimental process of startups, software engineering, data exploration, and optimizing neural networks. Recent work includes reducing bias data representations in machine learning models for facial recognition applications.</p>
         </div>
         </section>
